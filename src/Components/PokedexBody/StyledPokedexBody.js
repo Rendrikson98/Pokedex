@@ -28,3 +28,20 @@ export const ColumnLeftDiagonalRight = styled.div`
     transform: skew(-55deg);
     z-index: 1;
 `;
+
+export const Hinge = styled.div`
+    position: absolute;
+    width: 50px;
+    height: 520px;
+    background: linear-gradient(90deg, rgba(192,13,13,1) 2%, rgba(241,61,61,1) 24%, rgba(192,13,13,1) 63%, rgba(137,6,28,1) 91%);
+    margin: 180px 0 0 450px;
+
+`;
+
+export const LineHinge = styled.div`
+    position:absolute;
+    width: 50px;
+    height: 10px;
+    background-color: rgba(0,0,0,0.3);
+    margin: ${props => props.top ? '-150px 0 0 450px' : '500px 0 0 450px'};
+`;

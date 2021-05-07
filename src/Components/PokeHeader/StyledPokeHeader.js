@@ -12,10 +12,10 @@ export const LeftHeader = styled.div`
 
 export const RightHeader = styled.div`
     position: absolute;
-    width:170px;
+    width:220px;
     height: 85px;
     background-color: #c00d0d;
-    margin: -425px 0 0 230px; 
+    margin: -425px 0 0 280px; 
     box-shadow: 0 10px #860909;
 `
 
