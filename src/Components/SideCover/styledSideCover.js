@@ -34,10 +34,24 @@ export const ScreenTop = styled.div`
     position:absolute;
     width: 300px;
     height: 80px;
-    background-color: black;
+    background-color: white;
+    color: black;
     border-radius: 8px;
     margin: -40px -900px 0 0;
+    text-align: center;
     z-index: 2;
+`;
+
+export const Text = styled.p`
+    font-size: 1rem;
+    font-weight: 500;
+    margin: ${props => props.islabel ? '10px 0 0 10px' : '18px 0 -13px 10px'};
+`;
+
+export const Input = styled.input`
+    width: 250px;
+    height: 20px;
+    margin: 4px 0 0 10px;
 `;
 
 export const RowMiddle = styled.div`

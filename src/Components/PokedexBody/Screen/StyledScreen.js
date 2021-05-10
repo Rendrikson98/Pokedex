@@ -14,6 +14,9 @@ export const BorderScreen = styled.div`
 `;
 
 export const ScreenIn = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
     height: 150px;
     background-color: white;
@@ -68,4 +71,9 @@ export const DiagonaLine = styled.div`
     border: 25px solid;
     border-color: #dedede #dedede #c00d0d #c00d0d;
     margin: 200px 0 0 -250px;
+`;
+
+export const ImgPokemon = styled.img`
+    width: 180px;
+    height: 180px;
 `;
